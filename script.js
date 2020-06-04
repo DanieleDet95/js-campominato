@@ -85,7 +85,7 @@ function generaNumeriCasuali(rangeMax) {
 }
 
 // Funzione se il numero casuale esiste giá
-function controlloRipetizione(array, numero) {
+function controlloRipetizioneConInserimento(array, numero) {
   var numeroRipetuto = false;
   if (arrayBombe.includes(numeroCasualeComputer)) {
       numeroRipetuto = true;    //se giá presente nell'array
